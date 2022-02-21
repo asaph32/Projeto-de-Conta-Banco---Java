@@ -1,0 +1,10 @@
+public class testing {
+    public static void main(String[] args) {
+        ContaBanco cb = new ContaBanco();
+        cb.setNumConta(111);
+        cb.setDono("Asaph Pemberton De Oliveira");
+        cb.abrirConta("CP");
+        cb.pagarMensal();
+        cb.estadoAtualDaConta();
+    }
+}
